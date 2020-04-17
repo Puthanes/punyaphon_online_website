@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style_login.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -27,7 +30,7 @@
         <hr>
         <form action="login.php" method="POST">
             <div class="form-group">
-                <label for="username">Username :</label>
+                <label for="username" placeholder="username">Username :</label>
                 <input type="text" class="form-control" id="username" name="username" required>
             </div>
             <div class="form-group">
@@ -36,7 +39,7 @@
             </div>
             <button type="submit" class="btn btn-primary" name="login">Login</button>
             <br><br>
-            <p>I don't have an acoount. Let me <a href="regis.php">Register</a>.</p>
+            <p>Don't have an acoount. Let me <a href="regis.php">Register</a>.</p>
         </form>
     </div>
 
